@@ -1,0 +1,325 @@
+================================================================================
+HPLinpack 2.2  --  High-Performance Linpack benchmark  --   February 24, 2016
+Written by A. Petitet and R. Clint Whaley,  Innovative Computing Laboratory, UTK
+Modified by Piotr Luszczek, Innovative Computing Laboratory, UTK
+Modified by Julien Langou, University of Colorado Denver
+================================================================================
+
+An explanation of the input/output parameters follows:
+T/V    : Wall time / encoded variant.
+N      : The order of the coefficient matrix A.
+NB     : The partitioning blocking factor.
+P      : The number of process rows.
+Q      : The number of process columns.
+Time   : Time in seconds to solve the linear system.
+Gflops : Rate of execution for solving the linear system.
+
+The following parameter values will be used:
+
+N      :    4096    20480 
+NB     :       2       10       20       40       80      160      320      640 
+PMAP   : Row-major process mapping
+P      :       2 
+Q      :       8 
+PFACT  :    Left 
+NBMIN  :       2 
+NDIV   :       2 
+RFACT  :    Left 
+BCAST  :   1ring 
+DEPTH  :       0 
+SWAP   : Mix (threshold = 64)
+L1     : transposed form
+U      : transposed form
+EQUIL  : yes
+ALIGN  : 8 double precision words
+
+--------------------------------------------------------------------------------
+
+- The matrix A is randomly generated for each test.
+- The following scaled residual check will be computed:
+      ||Ax-b||_oo / ( eps * ( || x ||_oo * || A ||_oo + || b ||_oo ) * N )
+- The relative machine precision (eps) is taken to be               2.220446e-16
+- Computational tests pass if scaled residuals are less than                16.0
+
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2        4096     2     2     8               7.44              6.162e+00
+HPL_pdgesv() start time Tue Mar  6 02:38:32 2018
+
+HPL_pdgesv() end time   Tue Mar  6 02:38:40 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               0.07
++ Max aggregated wall time pfact . . :               0.07
++ Max aggregated wall time mxswp . . :               0.06
+Max aggregated wall time update  . . :               6.97
++ Max aggregated wall time laswp . . :               0.36
+Max aggregated wall time up tr sv  . :               0.03
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0014599 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2        4096    10     2     8               1.85              2.475e+01
+HPL_pdgesv() start time Tue Mar  6 02:38:40 2018
+
+HPL_pdgesv() end time   Tue Mar  6 02:38:42 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               0.04
++ Max aggregated wall time pfact . . :               0.04
++ Max aggregated wall time mxswp . . :               0.03
+Max aggregated wall time update  . . :               1.58
++ Max aggregated wall time laswp . . :               0.23
+Max aggregated wall time up tr sv  . :               0.00
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0014581 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2        4096    20     2     8               1.00              4.590e+01
+HPL_pdgesv() start time Tue Mar  6 02:38:42 2018
+
+HPL_pdgesv() end time   Tue Mar  6 02:38:43 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               0.02
++ Max aggregated wall time pfact . . :               0.01
++ Max aggregated wall time mxswp . . :               0.01
+Max aggregated wall time update  . . :               0.87
++ Max aggregated wall time laswp . . :               0.05
+Max aggregated wall time up tr sv  . :               0.00
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0015621 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2        4096    40     2     8               0.90              5.087e+01
+HPL_pdgesv() start time Tue Mar  6 02:38:43 2018
+
+HPL_pdgesv() end time   Tue Mar  6 02:38:44 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               0.02
++ Max aggregated wall time pfact . . :               0.01
++ Max aggregated wall time mxswp . . :               0.01
+Max aggregated wall time update  . . :               0.76
++ Max aggregated wall time laswp . . :               0.06
+Max aggregated wall time up tr sv  . :               0.00
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0015989 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2        4096    80     2     8               0.95              4.830e+01
+HPL_pdgesv() start time Tue Mar  6 02:38:44 2018
+
+HPL_pdgesv() end time   Tue Mar  6 02:38:45 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               0.02
++ Max aggregated wall time pfact . . :               0.01
++ Max aggregated wall time mxswp . . :               0.01
+Max aggregated wall time update  . . :               0.75
++ Max aggregated wall time laswp . . :               0.06
+Max aggregated wall time up tr sv  . :               0.00
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0021919 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2        4096   160     2     8               1.11              4.115e+01
+HPL_pdgesv() start time Tue Mar  6 02:38:45 2018
+
+HPL_pdgesv() end time   Tue Mar  6 02:38:46 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               0.05
++ Max aggregated wall time pfact . . :               0.02
++ Max aggregated wall time mxswp . . :               0.02
+Max aggregated wall time update  . . :               0.80
++ Max aggregated wall time laswp . . :               0.06
+Max aggregated wall time up tr sv  . :               0.00
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0021259 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2        4096   320     2     8               1.52              3.013e+01
+HPL_pdgesv() start time Tue Mar  6 02:38:46 2018
+
+HPL_pdgesv() end time   Tue Mar  6 02:38:48 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               0.10
++ Max aggregated wall time pfact . . :               0.05
++ Max aggregated wall time mxswp . . :               0.04
+Max aggregated wall time update  . . :               0.92
++ Max aggregated wall time laswp . . :               0.06
+Max aggregated wall time up tr sv  . :               0.01
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0030821 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2        4096   640     2     8               2.41              1.903e+01
+HPL_pdgesv() start time Tue Mar  6 02:38:48 2018
+
+HPL_pdgesv() end time   Tue Mar  6 02:38:50 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               0.26
++ Max aggregated wall time pfact . . :               0.11
++ Max aggregated wall time mxswp . . :               0.10
+Max aggregated wall time update  . . :               1.38
++ Max aggregated wall time laswp . . :               0.07
+Max aggregated wall time up tr sv  . :               0.01
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0029218 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2       20480     2     2     8             928.26              6.170e+00
+HPL_pdgesv() start time Tue Mar  6 02:38:52 2018
+
+HPL_pdgesv() end time   Tue Mar  6 02:54:21 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               6.02
++ Max aggregated wall time pfact . . :               6.01
++ Max aggregated wall time mxswp . . :               5.78
+Max aggregated wall time update  . . :             918.23
++ Max aggregated wall time laswp . . :              18.49
+Max aggregated wall time up tr sv  . :               0.08
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0014113 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2       20480    10     2     8             202.10              2.834e+01
+HPL_pdgesv() start time Tue Mar  6 02:54:24 2018
+
+HPL_pdgesv() end time   Tue Mar  6 02:57:46 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               1.68
++ Max aggregated wall time pfact . . :               1.62
++ Max aggregated wall time mxswp . . :               1.54
+Max aggregated wall time update  . . :             200.36
++ Max aggregated wall time laswp . . :               8.17
+Max aggregated wall time up tr sv  . :               0.07
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0015097 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2       20480    20     2     8             106.30              5.388e+01
+HPL_pdgesv() start time Tue Mar  6 02:57:49 2018
+
+HPL_pdgesv() end time   Tue Mar  6 02:59:36 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               1.03
++ Max aggregated wall time pfact . . :               0.92
++ Max aggregated wall time mxswp . . :               0.85
+Max aggregated wall time update  . . :             103.84
++ Max aggregated wall time laswp . . :               2.26
+Max aggregated wall time up tr sv  . :               0.07
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0013879 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2       20480    40     2     8              88.46              6.474e+01
+HPL_pdgesv() start time Tue Mar  6 02:59:38 2018
+
+HPL_pdgesv() end time   Tue Mar  6 03:01:07 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               0.72
++ Max aggregated wall time pfact . . :               0.56
++ Max aggregated wall time mxswp . . :               0.49
+Max aggregated wall time update  . . :              86.03
++ Max aggregated wall time laswp . . :               1.76
+Max aggregated wall time up tr sv  . :               0.07
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0013243 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2       20480    80     2     8              86.54              6.618e+01
+HPL_pdgesv() start time Tue Mar  6 03:01:10 2018
+
+HPL_pdgesv() end time   Tue Mar  6 03:02:36 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               0.84
++ Max aggregated wall time pfact . . :               0.55
++ Max aggregated wall time mxswp . . :               0.48
+Max aggregated wall time update  . . :              83.05
++ Max aggregated wall time laswp . . :               1.62
+Max aggregated wall time up tr sv  . :               0.07
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0015324 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2       20480   160     2     8              88.97              6.437e+01
+HPL_pdgesv() start time Tue Mar  6 03:02:39 2018
+
+HPL_pdgesv() end time   Tue Mar  6 03:04:08 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               1.21
++ Max aggregated wall time pfact . . :               0.67
++ Max aggregated wall time mxswp . . :               0.60
+Max aggregated wall time update  . . :              83.44
++ Max aggregated wall time laswp . . :               1.66
+Max aggregated wall time up tr sv  . :               0.07
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0013777 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2       20480   320     2     8              96.58              5.930e+01
+HPL_pdgesv() start time Tue Mar  6 03:04:11 2018
+
+HPL_pdgesv() end time   Tue Mar  6 03:05:48 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               2.11
++ Max aggregated wall time pfact . . :               1.07
++ Max aggregated wall time mxswp . . :               1.00
+Max aggregated wall time update  . . :              86.87
++ Max aggregated wall time laswp . . :               1.66
+Max aggregated wall time up tr sv  . :               0.08
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0016869 ...... PASSED
+================================================================================
+T/V                N    NB     P     Q               Time                 Gflops
+--------------------------------------------------------------------------------
+WR00L2L2       20480   640     2     8             115.29              4.968e+01
+HPL_pdgesv() start time Tue Mar  6 03:05:50 2018
+
+HPL_pdgesv() end time   Tue Mar  6 03:07:46 2018
+
+--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV--VVV-
+Max aggregated wall time rfact . . . :               4.11
++ Max aggregated wall time pfact . . :               1.97
++ Max aggregated wall time mxswp . . :               1.89
+Max aggregated wall time update  . . :              96.80
++ Max aggregated wall time laswp . . :               1.68
+Max aggregated wall time up tr sv  . :               0.09
+--------------------------------------------------------------------------------
+||Ax-b||_oo/(eps*(||A||_oo*||x||_oo+||b||_oo)*N)=        0.0018362 ...... PASSED
+================================================================================
+
+Finished     16 tests with the following results:
+             16 tests completed and passed residual checks,
+              0 tests completed and failed residual checks,
+              0 tests skipped because of illegal input values.
+--------------------------------------------------------------------------------
+
+End of Tests.
+================================================================================

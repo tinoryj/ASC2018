@@ -1,0 +1,1 @@
+python3 script/train_pm.py -test script/test.tsv -modeldir ../model/

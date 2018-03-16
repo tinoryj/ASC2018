@@ -1,0 +1,52 @@
+\contentsline {section}{\numberline {1}Supercomputing Activities in UESTC}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Background}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Supercomputing-Related Hardware and Software Platforms}{3}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Hardware Platforms}{3}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Software Platforms}{4}{subsubsection.1.2.2}
+\contentsline {subsection}{\numberline {1.3}Supercomputing-Related Courses, Trainings, and Interest Groups}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Supercomputing-Related Research and Applications}{5}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1}High-level Laboratory planning and construction}{5}{subsubsection.1.4.1}
+\contentsline {subsubsection}{\numberline {1.4.2}Supercomputing Laboratory Service College Sudent Competition}{5}{subsubsection.1.4.2}
+\contentsline {subsubsection}{\numberline {1.4.3}Teaching and Scientific Research Promote Each Other}{5}{subsubsection.1.4.3}
+\contentsline {subsection}{\numberline {1.5}The Key Achievements on Supercomputing Education}{5}{subsection.1.5}
+\contentsline {subsubsection}{\numberline {1.5.1}Our HPC Education Development Process}{5}{subsubsection.1.5.1}
+\contentsline {subsubsection}{\numberline {1.5.2}The Status of HPC Education in Our School}{6}{subsubsection.1.5.2}
+\contentsline {section}{\numberline {2}Introduction of Our Team}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Overview}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Team Members}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Group Photos}{12}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Team Slogan}{12}{subsection.2.4}
+\contentsline {section}{\numberline {3}HPC System Design}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}Hardware Environment}{12}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Software Environment}{14}{subsection.3.2}
+\contentsline {section}{\numberline {4}HPL Test}{15}{section.4}
+\contentsline {subsection}{\numberline {4.1}Hardware Platform and Theoretical Performance}{15}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Software Platform}{15}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Optimization Process}{15}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Round 0}{15}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Round 1}{16}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Round 2}{17}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}Round 3}{18}{subsubsection.4.3.4}
+\contentsline {subsubsection}{\numberline {4.3.5}Round 4}{18}{subsubsection.4.3.5}
+\contentsline {subsection}{\numberline {4.4}Summary}{18}{subsection.4.4}
+\contentsline {section}{\numberline {5}HPCG Test}{20}{section.5}
+\contentsline {subsection}{\numberline {5.1}Hardware Platform}{20}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Software Platform}{20}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Summary}{20}{subsection.5.3}
+\contentsline {section}{\numberline {6}The RELION Test}{21}{section.6}
+\contentsline {subsection}{\numberline {6.1}Hardware Platform}{21}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Software Platform}{21}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Parameter Tuning}{21}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Code Optimization}{22}{subsection.6.4}
+\contentsline {subsubsection}{\numberline {6.4.1}First Hot Point}{22}{subsubsection.6.4.1}
+\contentsline {subsubsection}{\numberline {6.4.2}Second Hot Point}{22}{subsubsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.3}Third Hot Point}{23}{subsubsection.6.4.3}
+\contentsline {subsection}{\numberline {6.5}Answer Summary}{23}{subsection.6.5}
+\contentsline {subsubsection}{\numberline {6.5.1}Step I : Class 2D}{23}{subsubsection.6.5.1}
+\contentsline {subsubsection}{\numberline {6.5.2}Step II : Class 3D}{24}{subsubsection.6.5.2}
+\contentsline {subsubsection}{\numberline {6.5.3}Step III : Refine 3D}{24}{subsubsection.6.5.3}
+\contentsline {section}{\numberline {7}Answer Prediction for Search Query}{24}{section.7}
+\contentsline {subsection}{\numberline {7.1}Hardware Platform}{24}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Software Platform}{25}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Summary}{25}{subsection.7.3}
+\contentsline {section}{Appendices}{26}{section*.25}

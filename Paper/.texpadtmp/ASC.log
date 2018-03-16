@@ -1,0 +1,1731 @@
+This is TeXk, Version 3.14159265 (TeX Live 2017) (preloaded format=tex 2018.1.25)  5 MAR 2018 10:34
+ \write18 enabled.
+ file:line:error style messages enabled.
+**ASC.cls
+(./ASC.cls
+./ASC.cls:5: Undefined control sequence.
+l.5 \NeedsTeXFormat
+                   {LaTeX2e}[1999/12/01]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:6: Undefined control sequence.
+l.6 \ProvidesClass
+                  {ASC}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:8: Undefined control sequence.
+l.8 \RequirePackage
+                   {xkeyval}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:9: Undefined control sequence.
+l.9 \RequirePackage
+                   {etoolbox}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:10: Undefined control sequence.
+l.10 \define
+            @boolkey{MCM}[MCM@opt@]{CTeX}[false]{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:11: Undefined control sequence.
+l.11 \define
+            @boolkey{MCM}[MCM@opt@]{titlepage}[true]{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:12: Undefined control sequence.
+l.12 \define
+            @boolkey{MCM}[MCM@opt@]{abstract}[true]{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:13: Undefined control sequence.
+l.13 \define
+            @boolkey{MCM}[MCM@opt@]{sheet}[true]{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:14: Undefined control sequence.
+l.14 \define
+            @boolkey{MCM}[MCM@opt@]{titleinsheet}[false]{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:15: Undefined control sequence.
+l.15 \define
+            @boolkey{MCM}[MCM@opt@]{keywordsinsheet}[false]{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:16: Undefined control sequence.
+l.16 \define
+            @cmdkeys{MCM}[MCM@opt@]{tcn,problem}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:17: Undefined control sequence.
+l.17 \define
+            @key{MCM}{tcn}[0000]{\gdef\MCM@opt@tcn{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:17: Illegal parameter number in definition of \MCM.
+<to be read again> 
+                   1
+l.17 ...e@key{MCM}{tcn}[0000]{\gdef\MCM@opt@tcn{#1
+                                                  }}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./ASC.cls:18: Undefined control sequence.
+l.18 \define
+            @key{MCM}{problem}[A]{\gdef\MCM@opt@problem{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:18: Illegal parameter number in definition of \MCM.
+<to be read again> 
+                   1
+l.18 ...{MCM}{problem}[A]{\gdef\MCM@opt@problem{#1
+                                                  }}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./ASC.cls:19: Undefined control sequence.
+l.19 \setkeys
+             {MCM}{tcn=0000,problem=B}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (96.66301pt too wide) in paragraph at lines 8--20
+\tenrm @boolkeyMCM[MCM@opt@]abstract[true] @boolkeyMCM[MCM@opt@]sheet[true] @boolkeyMCM[MCM@opt@]titleinsheet[false]|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm @
+.\tenrm b
+.\kern0.27779
+.\tenrm o
+.\kern0.27779
+.etc.
+
+
+Overfull \hbox (29.41281pt too wide) in paragraph at lines 8--20
+\tenrm @boolkeyMCM[MCM@opt@]keywordsinsheet[false] @cmd-keysMCM[MCM@opt@]tcn,problem @keyM-CMtcn[0000]|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\tenrm @
+.\tenrm b
+.\kern0.27779
+.\tenrm o
+.\kern0.27779
+.etc.
+
+./ASC.cls:21: Undefined control sequence.
+l.21 \define
+            @key{mcmthesis.cls}{tcn}[0000]{\gdef\MCM@opt@tcn{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:21: Illegal parameter number in definition of \MCM.
+<to be read again> 
+                   1
+l.21 ...hesis.cls}{tcn}[0000]{\gdef\MCM@opt@tcn{#1
+                                                  }}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./ASC.cls:22: Undefined control sequence.
+l.22 \define
+            @key{mcmthesis.cls}{problem}[A]{\gdef\MCM@opt@problem{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:22: Illegal parameter number in definition of \MCM.
+<to be read again> 
+                   1
+l.22 ....cls}{problem}[A]{\gdef\MCM@opt@problem{#1
+                                                  }}
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./ASC.cls:23: Undefined control sequence.
+l.23 \define
+            @boolkey{mcmthesis.cls}[MCM@opt@]{titlepage}{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:24: Undefined control sequence.
+l.24 \define
+            @boolkey{mcmthesis.cls}[MCM@opt@]{abstract}{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:25: Undefined control sequence.
+l.25 \define
+            @boolkey{mcmthesis.cls}[MCM@opt@]{sheet}{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:26: Undefined control sequence.
+l.26 \define
+            @boolkey{mcmthesis.cls}[MCM@opt@]{titleinsheet}{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:27: Undefined control sequence.
+l.27 \define
+            @boolkey{mcmthesis.cls}[MCM@opt@]{keywordsinsheet}{}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:28: Use of \MCM doesn't match its definition.
+l.28 \MCM@opt@s
+               heettrue
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./ASC.cls:29: Use of \MCM doesn't match its definition.
+l.29 \MCM@opt@t
+               itlepagetrue
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./ASC.cls:30: Use of \MCM doesn't match its definition.
+l.30 \MCM@opt@t
+               itleinsheetfalse
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./ASC.cls:31: Use of \MCM doesn't match its definition.
+l.31 \MCM@opt@k
+               eywordsinsheetfalse
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./ASC.cls:32: Use of \MCM doesn't match its definition.
+l.32 \MCM@opt@a
+               bstracttrue
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./ASC.cls:33: Undefined control sequence.
+l.33 \newcommand
+                {\mcmsetup}[1]{\setkeys{MCM}{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:33: Undefined control sequence.
+l.33 \newcommand{\mcmsetup
+                          }[1]{\setkeys{MCM}{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:33: Undefined control sequence.
+l.33 \newcommand{\mcmsetup}[1]{\setkeys
+                                       {MCM}{#1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:33: You can't use `macro parameter character #' in horizontal mode.
+l.33 \newcommand{\mcmsetup}[1]{\setkeys{MCM}{#
+                                              1}}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./ASC.cls:34: Undefined control sequence.
+l.34 \ProcessOptionsX
+                     \relax
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:35: Undefined control sequence.
+l.35 \LoadClass
+               [a4paper, 11pt]{article}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:36: Undefined control sequence.
+l.36 \newcommand
+                {\team}{Team \#\ \MCM@opt@tcn}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:36: Undefined control sequence.
+l.36 \newcommand{\team
+                      }{Team \#\ \MCM@opt@tcn}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:36: Use of \MCM doesn't match its definition.
+l.36 \newcommand{\team}{Team \#\ \MCM@opt@t
+                                           cn}
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./ASC.cls:37: Undefined control sequence.
+l.37 \RequirePackage
+                    {fancyhdr, fancybox}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:38: Undefined control sequence.
+l.38 \RequirePackage
+                    {ifthen}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:39: Undefined control sequence.
+l.39 \RequirePackage
+                    {lastpage}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:40: Undefined control sequence.
+l.40 \RequirePackage
+                    {listings}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:41: Undefined control sequence.
+l.41 \RequirePackage
+                    [toc, page, title, titletoc, header]{appendix}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:42: Undefined control sequence.
+l.42 \RequirePackage
+                    {paralist}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:43: Undefined control sequence.
+l.43 \RequirePackage
+                    {amsthm, amsfonts}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:44: Undefined control sequence.
+l.44 \RequirePackage
+                    {amsmath, bm}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:45: Undefined control sequence.
+l.45 \RequirePackage
+                    {amssymb, mathrsfs}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:46: Undefined control sequence.
+l.46 \RequirePackage
+                    {latexsym}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:47: Undefined control sequence.
+l.47 \RequirePackage
+                    {longtable, multirow, hhline, tabularx, array}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:48: Undefined control sequence.
+l.48 \RequirePackage
+                    {flafter}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:49: Undefined control sequence.
+l.49 \RequirePackage
+                    {pifont, calc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:50: Undefined control sequence.
+l.50 \RequirePackage
+                    {colortbl, booktabs}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:51: Undefined control sequence.
+l.51 \RequirePackage
+                    {geometry}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:52: Undefined control sequence.
+l.52 \RequirePackage
+                    [T1]{fontenc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:53: Undefined control sequence.
+l.53 \RequirePackage
+                    [scaled]{berasans}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:54: Undefined control sequence.
+l.54 \RequirePackage
+                    {hyperref}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:55: Undefined control sequence.
+l.55 \RequirePackage
+                    {ifpdf, ifxetex}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:56: Undefined control sequence.
+l.56 \RequirePackage
+                    {palatino}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:57: Undefined control sequence.
+l.57 \RequirePackage
+                    {lipsum}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:58: Undefined control sequence.
+l.58 \RequirePackage
+                    {booktabs}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:59: Undefined control sequence.
+l.59 \RequirePackage
+                    {tabu}%%table
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:60: Undefined control sequence.
+l.60 \RequirePackage
+                    {colortbl}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:61: Undefined control sequence.
+l.61 \RequirePackage
+                    {geometry}%^^e9^^a1^^b5^^e9^^9d^^a2^^e8^^ae^^be^^e7^^bd^^ae
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:62: Undefined control sequence.
+l.62 \RequirePackage
+                    {graphics}%^^e5^^9b^^be^^e7^^89^^87^^e8^^ae^^be^^e7^^bd^^ae
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:63: Undefined control sequence.
+l.63 \RequirePackage
+                    {caption}%^^e6^^b3^^a8^^e9^^87^^8a^^e8^^ae^^be^^e7^^bd^^ae
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:64: Undefined control sequence.
+l.64 \RequirePackage
+                    {graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:65: Undefined control sequence.
+l.65 \RequirePackage
+                    {subfigure}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:66: Undefined control sequence.
+l.66 \RequirePackage
+                    {palatino}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:67: Undefined control sequence.
+l.67 \RequirePackage
+                    {tikz}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:68: Undefined control sequence.
+l.68 \RequirePackage
+                    {enumerate}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:69: Undefined control sequence.
+l.69 \RequirePackage
+                    {longtable}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:70: Undefined control sequence.
+l.70 \RequirePackage
+                    {wrapfig}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:71: Undefined control sequence.
+l.71 \usetikzlibrary
+                    {shapes.geometric, arrows}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (6.05043pt too wide) in paragraph at lines 21--72
+[]\tenrm @keymcmthesis.clstcn[0000] @keym-cmthe-sis.clsproblem[A] @boolkeym-cmthe-sis.cls[MCM@opt@]titlepage|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm k
+.\kern-0.27779
+.\tenrm e
+.etc.
+
+./ASC.cls:73: Undefined control sequence.
+l.73 \newcommand
+                {\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:73: Undefined control sequence.
+l.73 \newcommand{\upcite
+                        }[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:73: Undefined control sequence.
+l.73 \newcommand{\upcite}[1]{\textsuperscript
+                                             {\textsuperscript{\cite{#1}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:73: Undefined control sequence.
+l.73 ...cite}[1]{\textsuperscript{\textsuperscript
+                                                  {\cite{#1}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:73: Undefined control sequence.
+l.73 ...1]{\textsuperscript{\textsuperscript{\cite
+                                                  {#1}}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:73: You can't use `macro parameter character #' in horizontal mode.
+l.73 ...{\textsuperscript{\textsuperscript{\cite{#
+                                                  1}}}}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./ASC.cls:75: Undefined control sequence.
+l.75 \AtBeginDocument
+                     {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:76: Undefined control sequence.
+l.76 \ifMCM
+           @opt@CTeX
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:77: Extra \else.
+l.77 \else
+          
+I'm ignoring this; it doesn't match any \if.
+
+./ASC.cls:78: Undefined control sequence.
+l.78   \RequirePackage
+                      {environ}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:79: Extra \fi.
+l.79 \fi
+        
+I'm ignoring this; it doesn't match any \if.
+
+./ASC.cls:81: Undefined control sequence.
+l.81 \ifpdf
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:82: Undefined control sequence.
+l.82   \RequirePackage
+                      {graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:83: Undefined control sequence.
+l.83   \RequirePackage
+                      {epstopdf}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:84: Extra \else.
+l.84 \else
+          
+I'm ignoring this; it doesn't match any \if.
+
+./ASC.cls:85: Undefined control sequence.
+l.85   \ifxetex
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:86: Undefined control sequence.
+l.86     \RequirePackage
+                        {graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:87: Extra \else.
+l.87   \else
+            
+I'm ignoring this; it doesn't match any \if.
+
+./ASC.cls:88: Undefined control sequence.
+l.88     \RequirePackage
+                        [dvipdfmx]{graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:89: Undefined control sequence.
+l.89     \RequirePackage
+                        {bmpsize}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:90: Extra \fi.
+l.90   \fi
+          
+I'm ignoring this; it doesn't match any \if.
+
+./ASC.cls:91: Extra \fi.
+l.91 \fi
+        
+I'm ignoring this; it doesn't match any \if.
+
+./ASC.cls:92: Undefined control sequence.
+l.92 \RequirePackage
+                    {xcolor}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:93: Undefined control sequence.
+l.93 \ifpdf
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:94: Undefined control sequence.
+l.94   \hypersetup
+                  {hidelinks}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:95: Extra \else.
+l.95 \else
+          
+I'm ignoring this; it doesn't match any \if.
+
+./ASC.cls:96: Undefined control sequence.
+l.96   \ifxetex
+               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:97: Undefined control sequence.
+l.97     \hypersetup
+                    {hidelinks}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:98: Extra \else.
+l.98   \else
+            
+I'm ignoring this; it doesn't match any \if.
+
+./ASC.cls:99: Undefined control sequence.
+l.99     \hypersetup
+                    {dvipdfm, hidelinks}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:100: Extra \fi.
+l.100   \fi
+           
+I'm ignoring this; it doesn't match any \if.
+
+./ASC.cls:101: Extra \fi.
+l.101 \fi
+         
+I'm ignoring this; it doesn't match any \if.
+
+./ASC.cls:102: Undefined control sequence.
+l.102 \geometry
+               {a4paper, margin = 1.2in}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:103: Undefined control sequence.
+l.103 \pagestyle
+                {fancy}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:104: Undefined control sequence.
+l.104 \fancyhf
+              {}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:105: Undefined control sequence.
+l.105 \lhead
+            {\small\sffamily \team}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:105: Undefined control sequence.
+l.105 \lhead{\small
+                   \sffamily \team}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:105: Undefined control sequence.
+l.105 \lhead{\small\sffamily
+                             \team}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:105: Undefined control sequence.
+l.105 \lhead{\small\sffamily \team
+                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:106: Undefined control sequence.
+l.106 \rhead
+            {\small\sffamily Page \thepage\ of \pageref{LastPage}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:106: Undefined control sequence.
+l.106 \rhead{\small
+                   \sffamily Page \thepage\ of \pageref{LastPage}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:106: Undefined control sequence.
+l.106 \rhead{\small\sffamily
+                             Page \thepage\ of \pageref{LastPage}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:106: Undefined control sequence.
+l.106 \rhead{\small\sffamily Page \thepage
+                                          \ of \pageref{LastPage}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:106: Undefined control sequence.
+l.106 ...small\sffamily Page \thepage\ of \pageref
+                                                  {LastPage}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:107: Undefined control sequence.
+l.107 \setlength
+                \parskip{.5\baselineskip}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:107: Missing number, treated as zero.
+<to be read again> 
+                   {
+l.107 \setlength\parskip{
+                         .5\baselineskip}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ASC.cls:107: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.107 \setlength\parskip{
+                         .5\baselineskip}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ASC.cls:107: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.107 \setlength\parskip{.5\baselineskip}
+                                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./ASC.cls:107: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.107 \setlength\parskip{.5\baselineskip}
+                                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./ASC.cls:108: Undefined control sequence.
+l.108 \renewcommand
+                   \tableofcontents{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:108: Undefined control sequence.
+l.108 \renewcommand\tableofcontents
+                                   {%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:111: Undefined control sequence.
+<argument> \normalfont 
+                       \Large \bfseries \sffamily \contentsname \@mkboth{\Ma...
+\centerline #1->\line {\hss #1
+                              \hss }
+l.111 ...ntentsname}{\MakeUppercase\contentsname}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:111: Undefined control sequence.
+<argument> \normalfont \Large 
+                              \bfseries \sffamily \contentsname \@mkboth{\Ma...
+\centerline #1->\line {\hss #1
+                              \hss }
+l.111 ...ntentsname}{\MakeUppercase\contentsname}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:111: Undefined control sequence.
+<argument> \normalfont \Large \bfseries 
+                                        \sffamily \contentsname \@mkboth{\Ma...
+\centerline #1->\line {\hss #1
+                              \hss }
+l.111 ...ntentsname}{\MakeUppercase\contentsname}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:111: Undefined control sequence.
+<argument> \normalfont \Large \bfseries \sffamily 
+                                                  \contentsname \@mkboth{\Ma...
+\centerline #1->\line {\hss #1
+                              \hss }
+l.111 ...ntentsname}{\MakeUppercase\contentsname}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:111: Undefined control sequence.
+<argument> ...e \bfseries \sffamily \contentsname 
+                                                  \@mkboth{\MakeUppercase \c...
+\centerline #1->\line {\hss #1
+                              \hss }
+l.111 ...ntentsname}{\MakeUppercase\contentsname}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:111: Undefined control sequence.
+<argument> ...\bfseries \sffamily \contentsname \@
+                                                  mkboth{\MakeUppercase \con...
+\centerline #1->\line {\hss #1
+                              \hss }
+l.111 ...ntentsname}{\MakeUppercase\contentsname}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:111: Undefined control sequence.
+<argument> ...ontentsname \@mkboth{\MakeUppercase 
+                                                  \contentsname }{\MakeUpper...
+\centerline #1->\line {\hss #1
+                              \hss }
+l.111 ...ntentsname}{\MakeUppercase\contentsname}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:111: Undefined control sequence.
+<argument> ...mkboth{\MakeUppercase \contentsname 
+                                                  }{\MakeUppercase \contents...
+\centerline #1->\line {\hss #1
+                              \hss }
+l.111 ...ntentsname}{\MakeUppercase\contentsname}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:111: Undefined control sequence.
+<argument> ...case \contentsname }{\MakeUppercase 
+                                                  \contentsname }
+\centerline #1->\line {\hss #1
+                              \hss }
+l.111 ...ntentsname}{\MakeUppercase\contentsname}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:111: Undefined control sequence.
+<argument> ...name }{\MakeUppercase \contentsname 
+                                                  }
+\centerline #1->\line {\hss #1
+                              \hss }
+l.111 ...ntentsname}{\MakeUppercase\contentsname}}
+                                                  %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (306.58398pt too wide) in paragraph at lines 76--112
+\tenrm dvipdfm, hidelinks a4paper, mar-gin = 1.2in fancy   Page  of Last-Page .5 [] |
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\tenrm d
+.\tenrm v
+.\tenrm i
+.\tenrm p
+.\kern0.27779
+.etc.
+
+./ASC.cls:113: Undefined control sequence.
+l.113     \@
+            starttoc{toc}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:115: Undefined control sequence.
+l.115 \setcounter
+                 {totalnumber}{4}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:116: Undefined control sequence.
+l.116 \setcounter
+                 {topnumber}{2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:117: Undefined control sequence.
+l.117 \setcounter
+                 {bottomnumber}{2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:118: Undefined control sequence.
+l.118 \renewcommand
+                   {\textfraction}{0.15}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:118: Undefined control sequence.
+l.118 \renewcommand{\textfraction
+                                 }{0.15}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:119: Undefined control sequence.
+l.119 \renewcommand
+                   {\topfraction}{0.85}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:119: Undefined control sequence.
+l.119 \renewcommand{\topfraction
+                                }{0.85}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:120: Undefined control sequence.
+l.120 \renewcommand
+                   {\bottomfraction}{0.65}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:120: Undefined control sequence.
+l.120 \renewcommand{\bottomfraction
+                                   }{0.65}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:121: Undefined control sequence.
+l.121 \renewcommand
+                   {\floatpagefraction}{0.60}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:121: Undefined control sequence.
+l.121 \renewcommand{\floatpagefraction
+                                      }{0.60}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:122: Undefined control sequence.
+l.122 \renewcommand
+                   {\figurename}{Figure}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:122: Undefined control sequence.
+l.122 \renewcommand{\figurename
+                               }{Figure}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:123: Undefined control sequence.
+l.123 \renewcommand
+                   {\tablename}{Table}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:123: Undefined control sequence.
+l.123 \renewcommand{\tablename
+                              }{Table}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:124: Undefined control sequence.
+l.124 \graphicspath
+                   {{./}{./img/}{./fig/}{./image/}{./figure/}{./picture/}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:144: Undefined control sequence.
+l.144 \AtBeginDocument
+                      {
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:145: Undefined control sequence.
+l.145 \ifMCM
+            @opt@CTeX
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\@=\box16
+./ASC.cls:147: A <box> was supposed to be here.
+<to be read again> 
+                   a
+l.147   \setbox\@a
+                  bstract\hbox{}%
+I was expecting to see \hbox or \vbox or \copy or \box or
+something like that. So you might find something missing in
+your output. But keep trying; you can fix this later.
+
+\@=\box17
+./ASC.cls:157: A <box> was supposed to be here.
+<to be read again> 
+                   s
+l.157   \setbox\@s
+                  ummarysheet\hbox{}%
+I was expecting to see \hbox or \vbox or \copy or \box or
+something like that. So you might find something missing in
+your output. But keep trying; you can fix this later.
+
+\@=\box18
+./ASC.cls:167: A <box> was supposed to be here.
+<to be read again> 
+                   k
+l.167   \setbox\@k
+                  eywords\hbox{}
+I was expecting to see \hbox or \vbox or \copy or \box or
+something like that. So you might find something missing in
+your output. But keep trying; you can fix this later.
+
+./ASC.cls:173: Extra \else.
+l.173 \else
+           
+I'm ignoring this; it doesn't match any \if.
+
+./ASC.cls:174: Undefined control sequence.
+l.174   \NewEnviron
+                   {summarysheet}{\xdef\@summarysheet{\expandonce\BODY}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:174: Undefined control sequence.
+l.174 ...arysheet}{\xdef\@summarysheet{\expandonce
+                                                  \BODY}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:174: Undefined control sequence.
+l.174 ...eet}{\xdef\@summarysheet{\expandonce\BODY
+                                                  }}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:181: Undefined control sequence.
+l.181   \RenewEnviron
+                     {abstract}{\xdef\@abstract{\expandonce\BODY}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:181: Undefined control sequence.
+l.181 ...ron{abstract}{\xdef\@abstract{\expandonce
+                                                  \BODY}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:181: Undefined control sequence.
+l.181 ...bstract}{\xdef\@abstract{\expandonce\BODY
+                                                  }}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:188: Undefined control sequence.
+l.188   \NewEnviron
+                   {keywords}{\xdef\@keywords{\expandonce\BODY}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:188: Undefined control sequence.
+l.188 ...ron{keywords}{\xdef\@keywords{\expandonce
+                                                  \BODY}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:188: Undefined control sequence.
+l.188 ...eywords}{\xdef\@keywords{\expandonce\BODY
+                                                  }}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:193: Extra \fi.
+l.193 \fi
+         
+I'm ignoring this; it doesn't match any \if.
+
+
+Overfull \hbox (103.96852pt too wide) in paragraph at lines 113--195
+[]\tenrm starttoctoc to-tal-num-ber4 top-num-ber2 bot-tom-num-ber2 0.15 0.85 0.65 0.60 Fig-ure Ta-ble ././img/./fig/./image/./figure/./picture/|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm s
+.\tenrm t
+.\tenrm a
+.\tenrm r
+.etc.
+
+./ASC.cls:196: Undefined control sequence.
+l.196 \newcommand
+                 {\headset}{{\Large\the\year}\\MCM/ICM\\Summary Sheet}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:196: Undefined control sequence.
+l.196 \newcommand{\headset
+                          }{{\Large\the\year}\\MCM/ICM\\Summary Sheet}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:196: Undefined control sequence.
+l.196 \newcommand{\headset}{{\Large
+                                   \the\year}\\MCM/ICM\\Summary Sheet}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:196: Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.196 ...\Large\the\year}\\MCM/ICM\\Summary Sheet}
+                                                  
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+MCM/ICM\\Summary Sheet
+./ASC.cls:196: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.196 ...\Large\the\year}\\MCM/ICM\\Summary Sheet}
+                                                  
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./ASC.cls:197: Undefined control sequence.
+l.197 \newcommand
+                 {\problem}[1]{\mcmsetup{problem = #1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:197: Undefined control sequence.
+l.197 \newcommand{\problem
+                          }[1]{\mcmsetup{problem = #1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:197: Undefined control sequence.
+l.197 \newcommand{\problem}[1]{\mcmsetup
+                                        {problem = #1}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:197: You can't use `macro parameter character #' in horizontal mode.
+l.197 ...ommand{\problem}[1]{\mcmsetup{problem = #
+                                                  1}}
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./ASC.cls:241: Undefined control sequence.
+l.241 \newcommand
+                 {\MCM@maketitle}{%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:241: Use of \MCM doesn't match its definition.
+l.241 \newcommand{\MCM@m
+                        aketitle}{%
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./ASC.cls:242: Undefined control sequence.
+l.242   \begin
+              {center}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:244: Undefined control sequence.
+l.244     {\LARGE
+                  \@title \par}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:244: Use of \@ doesn't match its definition.
+l.244     {\LARGE \@t
+                     itle \par}%
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+./ASC.cls:246: Undefined control sequence.
+l.246     {\large
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:248: Undefined control sequence.
+l.248       \begin
+                  {tabular}[t]{c}%
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./ASC.cls:249: Use of \@ doesn't match its definition.
+l.249         \@a
+                 uthor
+If you say, e.g., `\def\a1{...}', then you must always
+put `1' after `\a', since control sequence names are
+made up of letters only. The macro here has not been
+followed by the required stuff, so I'm ignoring it.
+
+[1] )
+(\end occurred inside a group at level 2)
+Output written on /Users/tinoryj/ProgsData/asc18/Paper/.texpadtmp/ASC.dvi (1 page, 2436 bytes).
